@@ -32,4 +32,16 @@ input {
     width: 75%;
 }
 
-/**/
+/* btn & container */
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button {
+    display: block;
+    width: 200px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}

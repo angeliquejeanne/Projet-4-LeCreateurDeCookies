@@ -45,3 +45,18 @@ button {
     padding: 5px;
     margin: 5px;
 }
+
+/* affichage des cookies créer */
+.display {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 75%;
+    padding: 15px;
+    font-size: 40px;
+}
+.info-txt {
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+    width: 75%;
+}

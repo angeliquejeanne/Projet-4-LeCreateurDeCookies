@@ -32,3 +32,14 @@ function btnAction(e){
         listeCookies();
     }
 }
+
+function createCookie(name, value, expire){
+    document.cookie = `${encodeURIComponent(name)}=${encodeURIComponent(value)};expires=${expire.toUTCString()}`; // endodeURIComponent permet d'encoder un composant ùURI en remplaçant chaque exemplaire par de l'UTF-8
+    let info = document.createElement('li');
+    info.innerText = `Cookie ${name} créé.`;
+    affichage.appendChild(info);
+    setTimeout(() => {
+        info.remove();
+    }, 1500) // Creation de cookie avec un message comme quoi il est bien créer
+    
+}

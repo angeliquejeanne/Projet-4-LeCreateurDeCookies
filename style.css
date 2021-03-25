@@ -22,3 +22,14 @@ h1 {
     font-size: 4vw;
     margin: 5vh 0;
 }
+
+/* input */
+input {
+    display: block;
+    margin: 1.5vh auto;
+    padding: 20px;
+    font-size: 20px;
+    width: 75%;
+}
+
+/**/

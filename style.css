@@ -22,3 +22,26 @@ h1 {
     font-size: 4vw;
     margin: 5vh 0;
 }
+
+/* input */
+input {
+    display: block;
+    margin: 1.5vh auto;
+    padding: 20px;
+    font-size: 20px;
+    width: 75%;
+}
+
+/* btn & container */
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button {
+    display: block;
+    width: 200px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
